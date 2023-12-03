@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body {
+    background: linear-gradient(#173f56,#2e1d6b96,#FBEEC1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    max-width: 80%;
+    min-height: 480px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+
+.container form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+}
+
+.form-group {
+    margin-top: 15px;
+    right:20px;
+}
+
+.container input, .container textarea {
+    background-color: #eee;
+    border: none;
+    margin: 5px 5px;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 95%;
+    outline: none;
+    margin-top: 15px ;
+    
+}
+
+.container button {
+    background-color: #2e1d6b96;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+}
+
+.container button:hover {
+    background-color: #24194b96;
+}
+
+
+.container button:hover {
+    background-color: #19113696;
+}
+
+.nav-buttons1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-buttons1 a {
+    text-decoration: none;
+}
+
+.nav-buttons1 button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #735cc696;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.nav-buttons1 button:hover {
+    background-color: #2980b9;
+}
+

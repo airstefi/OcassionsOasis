@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Create Event</title>
+    <link href="create_event.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="nav-buttons1">
+        <a href="desertindex.HTML"><button>Home</button></a>
+        <a href="index2.html"><button>Events</button></a>
+    </nav>
+    <h1>Create Your Event</h1>
+    <form id="event-form" class="container">
+        <div class="form-group">
+            <label for="event-name">Name</label>
+            <input id="event-name" placeholder="Enter event name" type="text"/>
+        </div>
+        <div class="form-group">
+            <label for="event-date">Date</label>
+            <input id="event-date" type="date"/>
+        </div>
+        <div class="form-group">
+            <label for="event-location">Location</label>
+            <input id="event-location" placeholder="Search for a place" type="text"/>
+        </div>
+        <div class="form-group">
+            <label for="event-description">Event Description</label>
+            <textarea id="event-description" placeholder="Describe your event" rows="4"></textarea>
+        </div>
+        <button type="submit">Post Event</button>
+    </form>
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&amp;libraries=places&amp;callback=initMap"></script>
+    <script src="create_event.js"></script>
+</body>
+</html>
